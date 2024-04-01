@@ -15,5 +15,5 @@ const COLLECTION_NAME = process.env.COLLECTION_NAME;
 (async () => {
   console.log("started scraping...");
   // slug_scraper(url, city, MONGODB_URI, DB_NAME, COLLECTION_NAME);
-  guide_scraper(guide_url, MONGODB_URI);
+  guide_scraper(url, city, MONGODB_URI, DB_NAME);
 })();
